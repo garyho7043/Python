@@ -13,7 +13,7 @@ from decimal import *
 FileName = []
 file_list = []
 total_size = 0
-data_path =r"C:\Users\Max\Desktop\python\programming\MLandDL\Testing data"
+data_path =r".\MLandDL\Testing data"
 
 for root, dirts, files in os.walk(data_path):
     for file in files:
