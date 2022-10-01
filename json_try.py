@@ -59,7 +59,7 @@ def json_load(batch_size,tuple_list):
 
 folder_name = []
 total_size = 0
-data_path =r"C:\Users\Max\Desktop\python\programming\MLandDL\Training data" #target folder(parent)
+data_path =r".\MLandDL\Training data" #target folder(parent)
 
 for root, dirts, files in os.walk(data_path):
     for dirt in dirts:
